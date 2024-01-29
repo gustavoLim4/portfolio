@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.site {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nome {
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+
+.nome a {
+    font-size: 2.9em;
+    color: #0276b4;
+
+}
+
+
+
+.Bem-vindo img {
+    width: 100%;
+    z-index: -99999999;
+}
+
+.minhafoto {
+    display: flex;
+    justify-content: end;
+    margin-top: -30%;
+    margin-right: 35px;
+}
+
+.minhafoto img {
+    border-radius: 70%;
+    width: 25%;
+    z-index: 1;
+}
+
+.buttMeuSite {
+    background-color: black;
+    margin-top: 3%;
+    margin-bottom: -1%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 200px 0px;
+}
+
+.buttMeuSite a {
+
+    color: rgb(35, 35, 35);
+}
+
+.buttMeuSite button {
+    border-radius: 15px;
+    width: 20%;
+    cursor: pointer;
+    padding: 17px;
+    font-size: 2.7em;
+    border: none;
+    color: #0d9deb;
+}
+
+.buttMeuSite button:hover {
+
+    box-shadow: 0 0 25px #0276b4;
+    transition: 0.3s ease;
+    transform: scale(1.4);
+}
+
+.buttMeuSite a:hover {
+    color: #0d9deb;
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background: rgb(255, 255, 255);
+}
+
+.informacoes a {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0276b4;
+}
+
+.informacoes a:hover {
+    color: #07a8ff;
+}
+
+
+
+.informacoes h4 {
+    font-size: 1.9em;
+    display: flex;
+    align-items: center;
+    margin-left: 6%;
+}
+
+section {
+    padding: 8%;
+    background: url(../img/fundoHacker.png);
+}
+
+.topo {
+    background: rgb(255, 255, 255);
+    margin-bottom: 10%;
+    padding: 30px;
+}
+
+.sobremimFT {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+.sobremimFT img {
+    width: 39%;
+    border-radius: 54%;
+}
+
+.sobremimTXT h2 {
+    font-size: 2.8em;
+    padding: 40px 60px;
+    text-align: center;
+    color: #0276b4;
+
+}
+
+.txtlogo {
+    background: white;
+    margin-bottom: 10%;
+    padding: 30px;
+}
+
+.logoimg {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.logoimg img {
+    width: 40%;
+}
+
+.sair svg {
+    margin-top: -100px;
+    margin-left: -65px;
+}
+
+.sair a {
+    color: #ffffff;
+}
+
+.meusSites {
+    display: flex;
+}
+
+.meusSites img {
+    width: 100%;
+}
+
+.meusSites img {
+    width: 1300px;
+    /* Escolha a largura desejada */
+    height: 700px;
+    /* Escolha a altura desejada */
+    object-fit: cover;
+    /* Esta propriedade ajuda a preservar a proporção da imagem */
+}
+
+
+
+
+.slick-prev {
+    display: none !important;
+}
+
+.slick-next {
+    display: none !important;
+
+}
+
+
+.slick-dots li {
+    bottom: -45px;
+    text-decoration: none !important;
+    background: #0276b4;
+    border-radius: 10px;
+}
+
+.MeusiteTT h1 {
+    font-size: 2.9em;
+    padding: 40px 60px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.txtAdega {
+    margin-top: 7%;
+}
+
+.txtAdega h1 {
+    font-size: 2.2em;
+    padding: 40px 60px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.linguagem {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.linguagem svg {
+    color: #0276b4;
+
+}
+
+.linguagemsegundo svg {
+    color: #0276b4;
+}
+
+.linguagemsegundo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 64%;
+    margin-left: 24%;
+
+}
+
+.jquery img {
+    width: 34%;
+
+}
