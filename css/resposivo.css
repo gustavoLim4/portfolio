@@ -1,0 +1,126 @@
+@media (max-width: 376px) {
+    .Bem-vindo img {
+        display: none !important;
+        
+    }
+    .fotodoResposivo {
+        background: url(../img/fundoResponsivo2.png)no-repeat !important;
+        padding: 15% 0px;
+    }
+    .minhafoto {
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .minhafoto img {
+        margin-top: 35%;
+        width: 50%;
+        object-fit: cover;
+        
+    }
+    .buttMeuSite {
+    
+        margin-top: -10%; 
+        padding: 50px 0px;
+    }
+
+    .buttMeuSite button {
+        
+        width: 39%;
+        font-size: 1.2em;
+      
+    }
+     
+
+}
+/* Para celular 320px */
+@media (max-width: 320px) {
+
+    .buttMeuSite {
+        padding: 40px 0px;
+        margin-top: 0%;
+    }
+
+    .buttMeuSite button {
+        width: 42%;
+        padding: 7px;
+        font-size: 1.1em;
+
+    }
+
+    .minhafoto {
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .minhafoto img {
+        margin-top: 35%;
+        width: 50%;
+        object-fit: cover;
+        
+    }
+    .fotodoResposivo {
+        background: url(../img/fundoResponsivo.png) !important;
+        padding: 10% 0px;
+    }
+
+    .minhasHB h1 {
+        font-size: 1.2em;
+        margin-top: 25px;
+    }
+
+    .Bem-vindo img {
+        display: none !important;
+        
+    }
+
+    .linguagem {
+        margin: 0px 0px 30px 10px;
+        margin-top: 20px;
+    }
+
+    .jquery img {
+        display: none;
+    }
+
+    .informacoes a {
+        margin: -19px;
+        font-size: 0.7em;
+        margin-top: -5px;
+        width: 100%;
+    }
+
+    .informacoes h4 {
+        font-size: 1.5em;
+
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .imglog img {
+        width: 120px;
+    }
+
+    .rodape {
+
+        padding: 10px;
+
+    }
+
+    .informacoes svg {
+        width: 15%;
+
+    }
+
+    .foote1 h4 {
+        font-size: 0.9em;
+    }
+
+    .footer2 h4 {
+
+        font-size: 0.9em;
+
+    }
+
+}
