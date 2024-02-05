@@ -1,39 +1,144 @@
+/* Para celular 375px */
 @media (max-width: 376px) {
     .Bem-vindo img {
         display: none !important;
-        
+
     }
+
     .fotodoResposivo {
         background: url(../img/fundoResponsivo2.png)no-repeat !important;
-        padding: 15% 0px;
+        padding: 22% 0px;
     }
+
     .minhafoto {
         justify-content: center;
         margin-right: 0px;
     }
+
     .minhafoto img {
-        margin-top: 35%;
+        margin-top: 20%;
         width: 50%;
         object-fit: cover;
-        
+
     }
+
     .buttMeuSite {
-    
-        margin-top: -10%; 
+
+        margin-top: -10%;
         padding: 50px 0px;
     }
 
     .buttMeuSite button {
-        
+        padding: 10px;
         width: 39%;
         font-size: 1.2em;
-      
-    }
-     
 
+    }
+
+    .minhasHB h1 {
+        margin-top: 31px;
+
+        font-size: 1.3em;
+    }
+
+    .linguagem {
+
+        margin: 20px 40px;
+    }
+
+    .imglog img {
+        width: 120px;
+    }
+
+    .informacoes a {
+        margin: -14px;
+        font-size: 0.9em;
+        margin-top: -12px;
+        width: 100%;
+    }
+
+    .informacoes svg {
+        width: 17%;
+
+    }
+
+    .informacoes h4 {
+        font-size: 1.6em;
+
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .foote1 h4 {
+        font-size: 1.2em;
+    }
+
+    .footer2 h4 {
+        font-size: 1.2em;
+    }
+
+    .rodape {
+
+        padding: 20px;
+    }
 }
+
 /* Para celular 320px */
 @media (max-width: 320px) {
+
+    .sair svg {
+        margin-left: -23px;
+        width: 22px;
+        margin-bottom: -22%;
+    }
+
+    .imagem img {
+        width: 111%;
+        height: 198px;
+        margin-left: -5%;
+        margin-bottom: 25px;
+        object-fit: cover !important;
+    }
+
+    .texto {
+        font-size: 0.6em;
+        width: 111%;
+        height: 198px;
+        margin-left: -5%;
+    }
+
+    .MeusiteTT h1 {
+        font-size: 1.5em;
+        padding: 20px 0px;
+
+    }
+
+    .linguagemHB svg {
+        width: 25px;
+    }
+
+    .linguagemHB {
+
+        margin-bottom: -10px;
+    }
+
+    .texto p {
+        font-size: 1.4em;
+        margin-bottom: -15%;
+    }
+
+    .verWeb a {
+        padding: 7px 26px;
+    }
+
+    .texto h1 {
+        font-size: 2.1em;
+        margin-bottom: -2%;
+    }
+
+
 
     .buttMeuSite {
         padding: 40px 0px;
@@ -56,8 +161,17 @@
         margin-top: 35%;
         width: 50%;
         object-fit: cover;
-        
+
     }
+
+    .maps {
+        display: none;
+    }
+
+    .jquery img {
+        display: none;
+    }
+
     .fotodoResposivo {
         background: url(../img/fundoResponsivo.png) !important;
         padding: 10% 0px;
@@ -70,7 +184,7 @@
 
     .Bem-vindo img {
         display: none !important;
-        
+
     }
 
     .linguagem {
