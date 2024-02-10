@@ -24,7 +24,7 @@
                 <img src="./img/minhafoto.png" alt="">
             </div>
         </div>
-        <div class="todosOsCard">
+        <div class=" site todosOsCard">
             <div class="box"data-tilt >
                 <div class="card">
                     <h1>Sobre mim </h1>
@@ -48,18 +48,7 @@
                     <a href="">fala ai </a>
                 </div>
             </div>
-            <div class="box" data-tilt>
-                <div class="card">
-                    <h1>Frilance</h1>
-                   
-                        <img src="./img/codetech.png" alt="">
-                 
-                    <p> Olá! Eu sou Gustavo, tenho 18 anos sou apaixonado por programação. Neste espaço digital, compartilho meu fascínio pelo mundo do código e a jornada emocionante que é explorar e criar com linhas de comando.
-                        Ao longo desta jornada como programador, tenho dedicado meu tempo a aprimorar minhas habilidades e a desenvolver projetos que refletem minha paixão pela tecnologia. Este portfólio é um vislumbre do que tenho construído até agora.</p>
 
-                    <a href="">fala ai </a>
-                </div>
-            </div>
         </div>
         <div class="minha-habilidade wow  animate__animated  animate__slideInUp">
             <h1>Minhas habilidades:</h1>

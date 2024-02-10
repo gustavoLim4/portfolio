@@ -91,8 +91,8 @@ body {
     font-size: 2.5em;
     border: none;
     color: #0d9deb;
-    background: url(../img/jquery.png);
-margin-bottom: 3%;
+    background: url(../img/);
+    margin-bottom: 3%;
 }
 
 .buttMeuSite button:hover {
@@ -141,9 +141,8 @@ margin-bottom: 3%;
 }
 .box {
     padding: 20px;
-    margin-top: 5%;
+    margin: 10% 0px 5%;
 }
-
 
 
 .card {
