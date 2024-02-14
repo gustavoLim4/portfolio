@@ -84,10 +84,6 @@
 
     }
 
-    .fotodoResposivo {
-        background: url(../img/fundoResponsivo2.png)no-repeat !important;
-        padding: 22% 0px;
-    }
 
     .minhafoto {
         justify-content: center;
@@ -309,10 +305,7 @@
         margin-bottom: 0%;
     }
 
-    .fotodoResposivo {
-        background: url(../img/fundoResponsivo.png) !important;
-        padding: 10% 0px;
-    }
+
 
     .minhasHB h1 {
         font-size: 1.2em;
