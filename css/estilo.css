@@ -96,6 +96,7 @@ body {
 }
 .todosOsCard{
     display: flex;
+    justify-content: center;
 }
 .minha-habilidade h1 {
     color: #fff;
@@ -113,26 +114,40 @@ body {
 .box {
     padding: 20px;
     margin: 10% 0px 5%;
+    justify-content: center;
+    display: flex;
 }
 
 
 .card {
     background: white;
-    width: 95%;
-    height: 550px;
+    width: 70%;
+    height: 300px;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
     opacity: 0.9;
+
 }
 .card h1 {
     margin: 20px 0px;
+    font-size: 1.9em;
 }
 .card img {
     width: 35%;
 }
-.curriculo img {
-    width: 40%;
+
+.imagemCard {
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.card a {
+    border: 5px outset #2997ff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #07a8ff;
+    font-size: 1.2em;
 }
 
 
@@ -144,6 +159,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 6%;
+    font-family: sans-serif;
 
 }
 
@@ -366,15 +382,7 @@ section {
     padding: 15px;
     font-size: 1.9em;
     text-align: center;
-}
-
-.footer2 h4 {
-    background-color: #ffffff;
-    color: #000000;
-
-    padding: 15px;
-    font-size: 1.9em;
-    text-align: center;
+    font-family: sans-serif;
 }
 
 .rodape {
