@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portifolio Gustavo</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/resposivo.css">
@@ -92,7 +94,6 @@
 </body>
 <script src="js/vanilla-tilt.js" ></script>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/script.js"></script>
