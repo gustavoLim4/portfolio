@@ -1,5 +1,170 @@
 /* Para celular 375px */
+@media (max-width: 426px) {
+    
+    .verWeb a {
+        padding: 9px 25px;
+        font-size: 0.9em;
+        border-radius: 20px;
+        margin-right: 45px;
+    }
+
+    .linguagemHB {
+        margin-bottom: -5px;
+        margin-top: -8px;
+        margin-right: 35px !important;
+
+    }
+
+    .texto p {
+        font-size: 1.3em;
+        width: 93%;
+        margin-bottom: -34px;
+        margin-top: -16px;
+    }    
+    .texto h1 {
+        font-size: 1.8em;
+        margin-top: 40px;
+    }
+
+    .linguagemHB svg {
+        width: 34px;
+        margin-top: -15px;
+    }
+    .texto {
+        font-size: 0.9em;
+        width: 100%;
+        height: 241px;
+        margin-left: 0%;
+    }
+
+    .imagem img {
+        height: 240px;
+    }
+
+    .MeusiteTT h1 {
+        font-size: 2.7em;
+        padding: 0px 0px 35px;
+    }
+
+    .sair svg {
+        margin-top: -26px;
+        margin-left: -30px;
+        width: 30px;
+    }
+
+
+    .imagemCard {
+        margin-bottom: 15px;
+    }
+
+    .card a {
+        padding: 5px;
+        font-size: 1em;
+    }
+
+    .card {
+        width: 80%;
+        height: 170px;
+    }
+
+    .card img {
+        width: 55%;
+    }
+
+
+    .card h1 {
+        margin: 5px 0px;
+        font-size: 1.5em;
+    }
+
+    .buttMeuSite button {
+        width: 45%;
+        padding: 8px;
+        font-size: 2em;
+        margin-bottom: 8%;
+    }
+
+    .informacoes a {
+        margin: -8px;
+        font-size: .9em;
+        margin-top: -1px;
+        width: 100%;
+    }
+
+    .informacoes svg {
+        width: 21%;
+    }
+
+
+
+    .imglog img {
+        width: 160px;
+    }
+
+    .linguagem svg {
+        width: 54px;
+        height: 65px;
+        padding: 6px;
+
+    }
+
+    .linguagem svg:hover {
+        transform: scale(1.1);
+        border-radius: 10px;
+
+    }
+
+    .minha-habilidade h1 {
+
+        font-size: 2em;
+    }
+
+    .linguagem {
+        margin: 30px 5%;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .rodape {
+
+        padding: 15px;
+
+    }
+}
+
+
+
+/* Para celular 375px */
 @media (max-width: 376px) {
+
+
+    .card a {
+        border: 4px outset #2997ff;
+        padding: 5px;
+        font-size: 0.9em;
+    }
+
+    .imagemCard {
+        margin-bottom: 14px;
+    }
+
+    .card {
+
+        width: 75%;
+        height: 140px;
+    }
+
+    .card h1 {
+        margin: 2px 0px;
+        font-size: 1.2em;
+    }
+
+    .card img {
+        width: 55%;
+    }
+
     .sair svg {
         margin-top: -52px;
         margin-left: -24px;
@@ -12,14 +177,16 @@
     }
 
     .linguagemHB {
-        margin-bottom: -30px;
-        margin-top: -10px;
+        margin-bottom: -5px;
+        margin-top: -8px;
+        margin-right: 0px !important;
     }
 
     .verWeb a {
         padding: 9px 25px;
-        font-size: 0.3em;
+        font-size: 0.9em;
         border-radius: 20px;
+        margin-right: 0px !important;
     }
 
     .linguagemHB svg {
@@ -34,13 +201,14 @@
     }
 
     .texto h1 {
-        font-size: 0.9em;
-        margin-top: 28px;
+        font-size: 1.4em;
+        margin-top: 20px;
     }
 
     .texto p {
-        font-size: 0.6em;
-        width: 98%;
+        font-size: 1em;
+        width: 93%;
+        margin: 0px !important;
     }
 
     .imagem img {
@@ -94,8 +262,8 @@
 
     .buttMeuSite {
 
-        margin-top: -10%;
-        padding: 50px 0px;
+        margin-top: -5%;
+        padding: 14px 0px;
     }
 
     .buttMeuSite button {
@@ -158,6 +326,38 @@
 /* Para celular 320px */
 @media (max-width: 320px) {
 
+
+    .imagemCard {
+        margin-bottom: 9px;
+        /* width: 100%; */
+    }
+
+    .card a {
+        border: 3px outset #2997ff;
+        padding: 5px;
+        font-size: 0.7em;
+    }
+
+    .card {
+        width: 100%;
+        height: 110px;
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .card h1 {
+        margin: 4px 0px;
+        font-size: 0.9em;
+    }
+
+    .box {
+        padding: 15px;
+        margin: 5% 0px 0%;
+        justify-content: center;
+        display: flex;
+    }
 
     .minha-habilidade h1 {
         font-size: 1.3em;
@@ -247,22 +447,24 @@
     }
 
     .linguagemHB {
-
+        margin-right:0px !important;
         margin-bottom: -10px;
     }
 
     .texto p {
-        font-size: 1.4em;
-        margin-bottom: -15%;
+        font-size: 1.5em;
+        margin-bottom: -1%;
     }
 
     .verWeb a {
         padding: 7px 26px;
+        margin: 0px !important;
     }
 
     .texto h1 {
         font-size: 2.1em;
-        margin-bottom: -2%;
+        margin-bottom: 1% !important;
+        margin-top: -5px;
     }
 
 
@@ -301,7 +503,6 @@
     }
 
 
-
     .minhasHB h1 {
         font-size: 1.2em;
         margin-top: 25px;
@@ -309,7 +510,7 @@
 
 
     .linguagem {
-        margin: 0px 0px 30px 10px;
+        margin: 0px 10px 30px 10px;
         margin-top: 20px;
     }
 
