@@ -1,6 +1,10 @@
 /* Para celular 425px */
-@media (max-width: 430px) {
-
+@media (max-width: 435px) {
+    body {
+        background-image: url(../img/fundosegundario.png) !important;
+        background-size: cover;
+        background-attachment: fixed;
+    }
     .Bem-vindo img:nth-child(1){
         display: none;
     }
@@ -348,7 +352,7 @@
 }
 
 /* Para celular 320px */
-@media (max-width: 320px) {
+@media (max-width: 325px) {
     .Bem-vindo img {
         width: 80%;
     object-fit: cover;
