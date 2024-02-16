@@ -1,6 +1,23 @@
-/* Para celular 375px */
+/* Para celular 425px */
 @media (max-width: 430px) {
+
+    .Bem-vindo img:nth-child(1){
+        display: none;
+    }
+    .Bem-vindo img:nth-child(2){
+       display: block;
+    }
     
+    .Bem-vindo {
+        height: 433px;
+    }
+    .Bem-vindo img {
+        width: 88%;
+        object-fit: cover;
+        padding: 25px;
+    }
+  
+ 
     .verWeb a {
         padding: 9px 25px;
         font-size: 0.9em;
@@ -139,7 +156,14 @@
 /* Para celular 375px */
 @media (max-width: 376px) {
 
-
+    .Bem-vindo img {
+        width: 82%;
+        object-fit: cover;
+        padding: 32px;
+    }
+    .Bem-vindo {
+        height: 383px;
+    }
     .card a {
         border: 4px outset #2997ff;
         padding: 5px;
@@ -325,6 +349,15 @@
 
 /* Para celular 320px */
 @media (max-width: 320px) {
+    .Bem-vindo img {
+        width: 80%;
+    object-fit: cover;
+    padding: 31px;
+    }
+
+    .Bem-vindo {
+        height: 320px !important;
+    }
 
 
     .imagemCard {

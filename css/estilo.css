@@ -20,6 +20,9 @@ body {
     background: white;
     opacity: .9;
 }
+.Bem-vindo img:nth-child(2){
+    display: none;
+}
 
 .minhasHB h1 {
     margin-top: 50px;
