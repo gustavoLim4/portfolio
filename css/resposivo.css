@@ -9,6 +9,7 @@
 
     .meuModal-content {
         max-width: 325px;
+        max-height: 110%;
     }
 
     .meuFechar {
