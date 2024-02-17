@@ -16,11 +16,13 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 .Bem-vindo {
     background: white;
     opacity: .9;
 }
-.Bem-vindo img:nth-child(2){
+
+.Bem-vindo img:nth-child(2) {
     display: none;
 }
 
@@ -101,10 +103,12 @@ body {
 .informacoes a:hover {
     color: #07a8ff;
 }
-.todosOsCard{
+
+.todosOsCard {
     display: flex;
     justify-content: center;
 }
+
 .minha-habilidade h1 {
     color: #fff;
     text-shadow: 0 0 10px #fff,
@@ -118,6 +122,7 @@ body {
     justify-content: center;
     font-size: 2.9em;
 }
+
 .box {
     margin: 10% 0px 5%;
     justify-content: center;
@@ -135,11 +140,13 @@ body {
     opacity: 0.9;
 
 }
+
 .card h1 {
     margin: 20px 0px;
     font-size: 1.9em;
     color: #2997ff;
 }
+
 .card img {
     width: 35%;
 }
@@ -159,7 +166,7 @@ body {
 }
 
 .botaomodal button:hover {
-    border: 3px inset #0055ff ;
+    border: 3px inset #0055ff;
     transition: 0.3s ease;
     transform: scale(1.2);
     box-shadow: 0 0 100px #00a6ff;
@@ -183,7 +190,7 @@ body {
 
 section {
     padding: 8%;
-   
+
 }
 
 .topo {
@@ -411,6 +418,7 @@ section {
     opacity: 0.9;
 }
 
+/* modal curriculo */
 .modal {
     display: none;
     position: fixed;
@@ -420,20 +428,20 @@ section {
     width: 80%;
     height: 82%;
     overflow: auto;
-    background-color: #005888b8;
+    background-color: #10628eb8;
     margin: 45px 110px;
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     margin: auto;
     display: block;
     width: 40%;
     max-width: 700px;
     max-height: 90%;
     padding: 20px;
-  }
-  
-  .close {
+}
+
+.close {
     color: #fff;
     position: absolute;
     top: 15px;
@@ -441,14 +449,78 @@ section {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #000dff;
     text-decoration: none;
     cursor: pointer;
     transition: 0.5s ease;
     transform: scale(1.5);
-  }
-  
+}
+
+/* modal curriculo final*/
+
+
+/* modal sobre mim*/
+.meuModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 82%;
+    overflow: auto;
+    background-color: #10628eb8;
+    margin: 45px 110px;
+}
+
+.meuModal-content {
+   
+    display: flex;
+    width: 100%;
+    max-width:910px;
+    max-height: 90%;
+    padding: 20px;
+
+}
+
+
+
+.meuFechar {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.meuFechar:hover,
+.meuFechar:focus {
+    color: #000dff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.5);
+}
+
+
+.fototxt {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    border: 7px double #ffffff;
+}
+
+.fototxt img {
+    width: 100%;
+}
+.fototxt img:nth-child(2) {
+    display: none;
+}
+/* modal sobre final*/

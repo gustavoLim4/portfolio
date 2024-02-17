@@ -19,4 +19,23 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
+  document.addEventListener("DOMContentLoaded", function() {
+    const openModal = document.getElementById("openModal");
+    const modal = document.getElementById("meuModal");
+    const closeBtn = document.getElementsByClassName("meuFechar")[0];
+  
+    openModal.addEventListener("click", function() {
+      modal.style.display = "block";
+    });
+  
+    closeBtn.addEventListener("click", function() {
+      modal.style.display = "none";
+    });
+  
+    window.addEventListener("click", function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    });
+  });
   

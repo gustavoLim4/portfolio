@@ -1,9 +1,40 @@
 /* Para celular 425px */
 @media (max-width: 435px) {
+
+    .fototxt {
+
+        margin-top: 25px;
+
+    }
+
+    .meuModal-content {
+        max-width: 325px;
+    }
+
+    .meuFechar {
+        top: 2px;
+        right: 9px;
+    }
+
+    .meuModal {
+        margin: 110px 29px;
+        width: 86%;
+        height: 70%;
+    }
+
+    .fototxt img:nth-child(1) {
+        display: none;
+    }
+
+    .fototxt img:nth-child(2) {
+        display: block !important;
+    }
+
     .botaomodal {
 
         display: none;
     }
+
     body {
         background-image: url(../img/fundosegundario.png) !important;
         background-size: cover;
@@ -114,7 +145,7 @@
     }
 
     .card img {
-        width:  70%;
+        width: 70%;
     }
 
 
@@ -185,14 +216,45 @@
 
 /* Para celular 375px */
 @media (max-width: 376px) {
+    .meuModal-content {
+
+        max-width: 272px;
+        justify-content: center;
+    }
+
+    .meuFechar {
+        top: 0px;
+        right: 8px;
+    }
+
+    .fototxt {
+        margin-top: 20px;
+        width: 83%;
+    }
+
+    .meuModal {
+        width: 84%;
+        height: 66%;
+        margin: 111px 28px;
+    }
+
+    .fototxt img:nth-child(1) {
+        display: none;
+    }
+
+    .fototxt img:nth-child(2) {
+        display: block !important;
+    }
 
     .botaomodal {
 
         display: none;
     }
+
     .close {
         right: 15px;
     }
+
     .Bem-vindo img {
         width: 82%;
         object-fit: cover;
@@ -389,23 +451,58 @@
 
 /* Para celular 320px */
 @media (max-width: 325px) {
+    .meuModal-content {
+        width: 91%;
+        max-width: 278px;
+        max-height: 100%;
+        margin-left: -8px;
+    }
+
+    .meuFechar {
+
+        top: 0px;
+        right: 9px;
+    }
+
+    .fototxt {
+        margin-top: 20px;
+        width: 80%;
+        width: 100%;
+    }
+
+    .meuModal {
+        width: 80%;
+        height: 55%;
+        margin: 110px 30px;
+    }
+
+
+    .fototxt img:nth-child(1) {
+        display: none;
+    }
+
+    .fototxt img:nth-child(2) {
+        display: block !important;
+    }
+
     .botaomodal {
 
         display: none;
     }
 
     .modal-content {
-        width: 65%;
+        width: 77%;
+        margin-top: 15px;
     }
 
     .modal {
-        height: 41%;
-        margin: 140px 26px;
+        height: 45%;
+        margin: 140px 29px;
     }
 
     .close {
-
-        right: 15px;
+        right: 8px;
+        margin-top: -20px;
     }
 
     .Bem-vindo img {
