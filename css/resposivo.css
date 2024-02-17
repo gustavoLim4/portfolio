@@ -1,3 +1,70 @@
+/* Para celular 470px */
+@media (max-width: 470px) {
+    .informacoes svg {
+        width: 23%;
+    }
+    .informacoes a {
+        margin: -3px;
+        font-size: .9em;
+        margin-top: -1px;
+        width: 100%;
+    }
+    .Bem-vindo img:nth-child(1) {
+        display: none;
+    }
+
+    .Bem-vindo img:nth-child(2) {
+        display: block;
+    }
+
+    .Bem-vindo {
+        height: 510px !important;
+    }
+
+    .Bem-vindo img {
+        width: 90%;
+        object-fit: cover;
+        padding: 25px;
+    }
+    .minha-habilidade h1 {
+        font-size: 2.5em;
+        margin-top: 32px;
+    }    
+
+    .card {
+
+        width: 80%;
+        height: 210px;
+    }
+
+    .card img {
+        width: 60%;
+    }
+
+    .botaomodal {
+        display: none;
+    }
+
+    .buttMeuSite button {
+        width: 55%;
+        margin-bottom: 7%;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .linguagem svg {
+        width: 60px;
+        height: 83px;
+        padding: 7px;
+
+    }
+    .imglog img {
+        width: 170px;
+    }
+}
+
 /* Para celular 425px */
 @media (max-width: 435px) {
 
@@ -184,7 +251,7 @@
         width: 52px;
         height: 65px;
         padding: 7px;
-    
+
 
     }
 
