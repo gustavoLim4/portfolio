@@ -26,26 +26,26 @@
 
         </div>
         <div class="site todosOsCard">
-            <div class="box" data-tilt>
-                <div class="card">
+            <div class="box" data-tilt data-tilt-scale="1.1">
+                <div class="card"  id="openModalVR">
                     <div class="nome">
                         <h1>Sobre mim </h1>
                     </div>
                     <div class="imagemCard">
                         <img src="./img/My.png" alt="">
                     </div>
-                    <a href="">Saber mais</a>
+                    <button class="botaomodal">Saber mais</button>
                 </div>
             </div>
-            <div class="box" data-tilt>
-                <div class="card">
+            <div class="box" data-tilt data-tilt-scale="1.1">
+                <div class="card" id="openModalBtn">
                     <div class="nome">
                         <h1>Meu curriculo</h1>
                     </div>
                     <div class="imagemCard">
                         <img src="./img/curriculo.png" alt="">
                     </div>
-                    <a href="">Ver currilo</a>
+                    <button class="botaomodal" >Ver currilo</button>
                 </div>
             </div>
 
@@ -157,6 +157,10 @@
         </div>
 
     </footer>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="curriculumImg" src="img/curriculoPPL.PNG" alt="Meu Currículo">
+      </div>
 
 </body>
 <script src="js/vanilla-tilt.js"></script>

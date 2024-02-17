@@ -1,27 +1,50 @@
 /* Para celular 425px */
 @media (max-width: 435px) {
+    .botaomodal {
+
+        display: none;
+    }
     body {
         background-image: url(../img/fundosegundario.png) !important;
         background-size: cover;
         background-attachment: fixed;
     }
-    .Bem-vindo img:nth-child(1){
+
+    .close {
+        right: 11px;
+    }
+
+    .modal-content {
+        width: 74%;
+
+    }
+
+    .modal {
+
+        height: 55%;
+
+        margin: 140px 39px;
+    }
+
+    .Bem-vindo img:nth-child(1) {
         display: none;
     }
-    .Bem-vindo img:nth-child(2){
-       display: block;
+
+    .Bem-vindo img:nth-child(2) {
+        display: block;
     }
-    
+
     .Bem-vindo {
         height: 433px;
     }
+
     .Bem-vindo img {
         width: 88%;
         object-fit: cover;
         padding: 25px;
     }
-  
- 
+
+
     .verWeb a {
         padding: 9px 25px;
         font-size: 0.9em;
@@ -41,7 +64,8 @@
         width: 93%;
         margin-bottom: -34px;
         margin-top: -22px;
-    }    
+    }
+
     .texto h1 {
         font-size: 1.8em;
         margin-top: 40px;
@@ -51,6 +75,7 @@
         width: 34px;
         margin-top: -15px;
     }
+
     .texto {
         font-size: 0.9em;
         width: 100%;
@@ -75,7 +100,7 @@
 
 
     .imagemCard {
-        margin-bottom: 15px;
+        margin-top: 15px;
     }
 
     .card a {
@@ -89,13 +114,14 @@
     }
 
     .card img {
-        width: 55%;
+        width:  70%;
     }
 
 
     .card h1 {
         margin: 5px 0px;
-        font-size: 1.5em;
+        font-size: 1.6em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .buttMeuSite button {
@@ -160,14 +186,23 @@
 /* Para celular 375px */
 @media (max-width: 376px) {
 
+    .botaomodal {
+
+        display: none;
+    }
+    .close {
+        right: 15px;
+    }
     .Bem-vindo img {
         width: 82%;
         object-fit: cover;
         padding: 32px;
     }
+
     .Bem-vindo {
         height: 383px;
     }
+
     .card a {
         border: 4px outset #2997ff;
         padding: 5px;
@@ -175,7 +210,7 @@
     }
 
     .imagemCard {
-        margin-bottom: 14px;
+        margin-top: 14px;
     }
 
     .card {
@@ -186,11 +221,12 @@
 
     .card h1 {
         margin: 2px 0px;
-        font-size: 1.2em;
+        font-size: 1.3em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .card img {
-        width: 55%;
+        width: 70%;
     }
 
     .sair svg {
@@ -353,10 +389,29 @@
 
 /* Para celular 320px */
 @media (max-width: 325px) {
+    .botaomodal {
+
+        display: none;
+    }
+
+    .modal-content {
+        width: 65%;
+    }
+
+    .modal {
+        height: 41%;
+        margin: 140px 26px;
+    }
+
+    .close {
+
+        right: 15px;
+    }
+
     .Bem-vindo img {
         width: 80%;
-    object-fit: cover;
-    padding: 31px;
+        object-fit: cover;
+        padding: 31px;
     }
 
     .Bem-vindo {
@@ -365,8 +420,7 @@
 
 
     .imagemCard {
-        margin-bottom: 9px;
-        /* width: 100%; */
+        margin-top: 11px;
     }
 
     .card a {
@@ -381,12 +435,13 @@
     }
 
     .card img {
-        width: 50%;
+        width: 65%;
     }
 
     .card h1 {
         margin: 4px 0px;
-        font-size: 0.9em;
+        font-size: 1.1em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .box {
@@ -484,7 +539,7 @@
     }
 
     .linguagemHB {
-        margin-right:0px !important;
+        margin-right: 0px !important;
         margin-bottom: -10px;
     }
 

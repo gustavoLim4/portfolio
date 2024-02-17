@@ -149,13 +149,24 @@ body {
     width: 100%;
 }
 
-.card a {
-    border: 5px outset #2997ff;
+.botaomodal {
     padding: 10px;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px outset #00a6ff;
     border-radius: 10px;
-    color: #07a8ff;
-    font-size: 1.2em;
+    color: #00a6ff;
 }
+
+.botaomodal button:hover {
+    border: 3px inset #0055ff ;
+    transition: 0.3s ease;
+    transform: scale(1.2);
+    box-shadow: 0 0 100px #00a6ff;
+}
+
+
+
 
 
 
@@ -399,3 +410,45 @@ section {
     background: white;
     opacity: 0.9;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 82%;
+    overflow: auto;
+    background-color: #005888b8;
+    margin: 45px 110px;
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 40%;
+    max-width: 700px;
+    max-height: 90%;
+    padding: 20px;
+  }
+  
+  .close {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000dff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    transform: scale(1.5);
+  }
+  
