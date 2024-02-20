@@ -36,7 +36,8 @@ body {
 
 
 .Bem-vindo img {
-    width: 100%;
+    padding: 20px 0px 40px;
+    width: 90%;
     object-fit: cover;
 }
 
