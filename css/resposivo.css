@@ -1,6 +1,13 @@
-/* Para celular 470px */
+/* RESPOSIVO APENAS PARA MOBILE */
+
+                                        /* Para celular 470px */
 
 @media (max-width: 470px) {
+    .sair svg {
+        margin-top: -26px;
+        margin-left: -30px;
+        width: 30px;
+    }
     .pagamento {
         width: 64%;
         margin-left: 20%;
@@ -8,7 +15,10 @@
     .pagamento a {
         border: 8px solid #ffffff;
         padding: 17px;
-        font-size: 30px;
+        font-size: 28px;
+    }  .pagamento a:hover {
+        font-size: 29px;
+        border: 9px solid #ffffff;
     }
     .verWeb a {
 
@@ -186,8 +196,13 @@
         width: 170px;
     }
 }
-
+                                            /* Para celular 455px */
 @media (max-width: 455px) {
+    .pagamento a:hover {
+        font-size: 28px;
+        border: 9px solid #ffffff;
+    }
+
 
     .pagamento {
         width: 70%;
@@ -196,7 +211,7 @@
     .pagamento a {
         border: 8px solid #ffffff;
         padding: 17px;
-        font-size: 30px;
+        font-size: 27px;
     }
 
     body {
@@ -259,7 +274,7 @@
     }
 }
 
-/* Para celular 440px */
+                                            /* Para celular 440px */
 @media (max-width: 440px) {
     .pagamento a {
         border: 7px solid #ffffff;
@@ -281,8 +296,8 @@
     }
 
     .imgC img {
-
-        margin-bottom: 10px;
+        margin-top: -11px;
+        margin-bottom: 7px;
         margin-right: 40px;
     }
 
@@ -369,8 +384,8 @@
     }
 
     .linguagemHB {
-        margin-bottom: -10px;
-        margin-top: -13px;
+        margin-bottom: -17px;
+        margin-top: -20px;
         margin-right: 35px !important;
 
     }
@@ -500,7 +515,7 @@
 
 
 
-/* Para celular 375px */
+                                        /* Para celular 375px */
 @media (max-width: 376px) {
     .pagamento a {
         border: 7px solid #ffffff;
@@ -521,7 +536,8 @@
     }
 
     .imgC img {
-
+        margin-top: 0px;
+        margin-right: 0px;
         margin-bottom: 10px;
     }
 
@@ -758,7 +774,7 @@
     }
 }
 
-/* Para celular 320px */
+                                            /* Para celular 320px */
 @media (max-width: 325px) {
     .pagamento a {
         border: 7px solid #ffffff;
@@ -984,7 +1000,8 @@
     }
 
     .imgC img {
-
+        margin-top: 0px;
+        margin-right: 0px;
         margin-bottom: 10px;
     }
 
