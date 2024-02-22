@@ -16,6 +16,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+.imgC img{
+    width: 12%;
+    margin-bottom: 60px;
+   
+}
 
 .Bem-vindo {
     background: white;
@@ -394,6 +399,34 @@ section {
     transition: 0.5s ease;
     background: #0b98e4;
 }
+
+.pagamento {
+    width: 33%;
+    margin-left: 39%;
+}
+.pagamento a {
+    border: 9px solid #ffffff;
+    padding: 20px;
+    font-size: 38px;
+    border-radius: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #07a8ff,
+        0 0 70px #07a8ff,
+        0 0 80px #07a8ff,
+        0 0 100px #07a8ff;
+}
+.pagamento a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 40px #ffffff;
+    transition: 0.2s ease;
+    color: #ffffff;
+    font-size: 40px;
+    border: 13px solid #ffffff;
+}
+
 
 .foote1 h4 {
     color: #fff;

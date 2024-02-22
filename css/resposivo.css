@@ -1,14 +1,17 @@
+
 /* Para celular 470px */
 @media (max-width: 470px) {
     .informacoes svg {
         width: 23%;
     }
+
     .informacoes a {
         margin: -3px;
         font-size: .9em;
         margin-top: -1px;
         width: 100%;
     }
+
     .Bem-vindo img:nth-child(1) {
         display: none;
     }
@@ -18,7 +21,7 @@
     }
 
     .Bem-vindo {
-        height: 510px ;
+        height: 510px;
     }
 
     .Bem-vindo img {
@@ -26,10 +29,11 @@
         object-fit: cover;
         padding: 25px;
     }
+
     .minha-habilidade h1 {
         font-size: 2.5em;
         margin-top: 32px;
-    }    
+    }
 
     .card {
 
@@ -60,6 +64,7 @@
         padding: 7px;
 
     }
+
     .imglog img {
         width: 170px;
     }
@@ -67,6 +72,30 @@
 
 /* Para celular 425px */
 @media (max-width: 435px) {
+    .pagamento a {
+        border: 7px solid #ffffff;
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .pagamento {
+        width: 80%;
+        margin-left: 22%;
+        margin-top: -10px;
+        margin-bottom: 24px;
+
+    }
+
+    .pagamento a:hover {
+        font-size: 26px;
+        border: 9px solid #ffffff;
+    }
+
+    .imgC img {
+
+        margin-bottom: 10px;
+        margin-right: 40px;
+    }
 
     .fototxt {
 
@@ -285,6 +314,29 @@
 
 /* Para celular 375px */
 @media (max-width: 376px) {
+    .pagamento a {
+        border: 7px solid #ffffff;
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .pagamento {
+        width: 80%;
+        margin-left: 17%;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+
+    .pagamento a:hover {
+        font-size: 26px;
+        border: 9px solid #ffffff;
+    }
+
+    .imgC img {
+
+        margin-bottom: 10px;
+    }
+
     .meuModal-content {
 
         max-width: 272px;
@@ -520,6 +572,24 @@
 
 /* Para celular 320px */
 @media (max-width: 325px) {
+    .pagamento a {
+        border: 7px solid #ffffff;
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .pagamento {
+        width: 80%;
+        margin-left: 12%;
+        margin-top: 25px;
+        margin-bottom: 24px;
+    }
+
+    .pagamento a:hover {
+        font-size: 26px;
+        border: 9px solid #ffffff;
+    }
+
     .meuModal-content {
         width: 91%;
         max-width: 278px;
@@ -671,7 +741,7 @@
     .imagem img {
         width: 111%;
         height: 198px;
-        margin-left: -5%;
+        margin-left: 0%;
         margin-bottom: 25px;
         object-fit: cover !important;
     }
@@ -725,7 +795,10 @@
         margin-top: -5px;
     }
 
+    .imgC img {
 
+        margin-bottom: 10px;
+    }
 
     .buttMeuSite {
         padding: 9px 0px;
