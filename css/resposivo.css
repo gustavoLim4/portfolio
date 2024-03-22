@@ -1,6 +1,130 @@
+@media (max-width : 768px) {
+    .pagamento {
+        width: 54%;
+        margin-left: 27%;
+    }
+    .imgC img {
+        width: 8%;
+        margin-bottom: 12px;
+        margin-top: -12px;
+
+    }
+    .verWeb a {
+        padding: 9px 25px;
+        font-size: 1.1em;
+    }
+    .texto h1 {
+        font-size: 2em;
+        margin-top: 42px;
+        margin-bottom: -37px;
+    }
+    .texto p {
+        font-size: 1.4em;
+        width: 98%;
+        margin-bottom: -28px;
+    }
+    .minhasHB {
+        padding: 0px;
+        margin-bottom: 8%;
+    }
+    .linguagemHB {
+        margin-bottom: 9px;
+    }
+    .linguagemHB svg {
+        width: 54px;
+        margin-top: -15px;
+    }
+    .texto {
+        height:400px; 
+    }
+    .imagem img {
+        height: 400px;
+    }
+
+    .modal {
+        width: 80%;
+        height: 68%;
+        margin: 168px 77px;
+    }
+    .modal-content {
+        width: 77%;
+        padding: 67px;
+    }
+
+    .meuModal {
+        height: 75%;
+        margin: 82px 81px;
+    }
+
+    .meuModal-content {
+
+        width: 87%;
+
+        max-height: 90%;
+        padding: 40px;
+    }
+
+    .fototxt img:nth-child(1) {
+        display: none;
+    }
+
+    .fototxt img:nth-child(2) {
+        display: block !important;
+    }
+
+    .maps {
+        display: none;
+    }
+
+    .linguagem svg {
+        width: 71px;
+        height: 95px;
+        padding: 21px;
+
+    }
+
+    .buttMeuSite button {
+
+        margin-bottom: 5%;
+        width: 38%;
+    }
+
+    .card img {
+        width: 55%;
+    }
+
+    .imagemCard {
+        margin-bottom: 10px;
+
+    }
+
+    .card {
+        height: 275px;
+    }
+
+    .card h1 {
+        margin: 12px 0px;
+        font-size: 2.3em;
+
+    }
+
+    .Bem-vindo img {
+
+        width: 95%
+    }
+
+    .rodape {
+
+        justify-content: space-around;
+
+    }
+}
+
+
+
 /* RESPOSIVO APENAS PARA MOBILE */
 
-                                        /* Para celular 470px */
+/* Para celular 470px */
 
 @media (max-width: 470px) {
     .sair svg {
@@ -8,18 +132,23 @@
         margin-left: -30px;
         width: 30px;
     }
+
     .pagamento {
         width: 64%;
         margin-left: 20%;
     }
+
     .pagamento a {
         border: 8px solid #ffffff;
         padding: 17px;
         font-size: 28px;
-    }  .pagamento a:hover {
+    }
+
+    .pagamento a:hover {
         font-size: 29px;
         border: 9px solid #ffffff;
     }
+
     .verWeb a {
 
         padding: 7px 19px;
@@ -33,6 +162,7 @@
         margin-top: 10px;
         margin-right: 30px;
     }
+
     .linguagemHB svg {
         width: 30px;
 
@@ -196,7 +326,8 @@
         width: 170px;
     }
 }
-                                            /* Para celular 455px */
+
+/* Para celular 455px */
 @media (max-width: 455px) {
     .pagamento a:hover {
         font-size: 28px;
@@ -208,6 +339,7 @@
         width: 70%;
         margin-left: 17%;
     }
+
     .pagamento a {
         border: 8px solid #ffffff;
         padding: 17px;
@@ -274,7 +406,7 @@
     }
 }
 
-                                            /* Para celular 440px */
+/* Para celular 440px */
 @media (max-width: 440px) {
     .pagamento a {
         border: 7px solid #ffffff;
@@ -515,7 +647,7 @@
 
 
 
-                                        /* Para celular 375px */
+/* Para celular 375px */
 @media (max-width: 376px) {
     .pagamento a {
         border: 7px solid #ffffff;
@@ -774,7 +906,7 @@
     }
 }
 
-                                            /* Para celular 320px */
+/* Para celular 320px */
 @media (max-width: 325px) {
     .pagamento a {
         border: 7px solid #ffffff;

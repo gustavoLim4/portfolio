@@ -45,4 +45,14 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
+  window.addEventListener('load', function() {
+    // Adiciona a classe 'loaded' à div .loader-container após 2 segundos (2000 milissegundos)
+    setTimeout(function() {
+      document.querySelector('.loader-container').classList.add('loaded');
+    }, 2000);
   
+    // Adiciona a classe 'loaded' à seção #site-main após 2.5 segundos (2500 milissegundos)
+    setTimeout(function() {
+      document.querySelector('#site-main').classList.add('loaded');
+    }, 2000);
+  });
