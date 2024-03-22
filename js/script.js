@@ -5,7 +5,7 @@ $('.imagem').slick({
   autoplaySpeed: 2000,
 });
 	
-new WOW().init();
+
 
 document.addEventListener("DOMContentLoaded", function() {
     const openModalBtn = document.getElementById("openModalBtn");
@@ -54,5 +54,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // Adiciona a classe 'loaded' à seção #site-main após 2.5 segundos (2500 milissegundos)
     setTimeout(function() {
       document.querySelector('#site-main').classList.add('loaded');
-    }, 2000);
+  
+      // Inicializa a biblioteca de animação WOW após adicionar a classe 'loaded' à seção #site-main
+      new WOW().init();
+    }, 1500);
   });
+  
+
+      
