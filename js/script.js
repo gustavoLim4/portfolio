@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       // Inicializa a biblioteca de animação WOW após adicionar a classe 'loaded' à seção #site-main
       new WOW().init();
-    }, 1500);
+    }, 1300);
   });
   
 
