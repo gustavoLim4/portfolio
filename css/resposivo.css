@@ -1,124 +1,4 @@
-@media (max-width : 768px) {
-    .pagamento {
-        width: 54%;
-        margin-left: 27%;
-    }
-    .imgC img {
-        width: 8%;
-        margin-bottom: 12px;
-        margin-top: -12px;
 
-    }
-    .verWeb a {
-        padding: 9px 25px;
-        font-size: 1.1em;
-    }
-    .texto h1 {
-        font-size: 2em;
-        margin-top: 42px;
-        margin-bottom: -37px;
-    }
-    .texto p {
-        font-size: 1.4em;
-        width: 98%;
-        margin-bottom: -28px;
-    }
-    .minhasHB {
-        padding: 0px;
-        margin-bottom: 8%;
-    }
-    .linguagemHB {
-        margin-bottom: 9px;
-    }
-    .linguagemHB svg {
-        width: 54px;
-        margin-top: -15px;
-    }
-    .texto {
-        height:400px; 
-    }
-    .imagem img {
-        height: 400px;
-    }
-
-    .modal {
-        width: 80%;
-        height: 68%;
-        margin: 168px 77px;
-    }
-    .modal-content {
-        width: 77%;
-        padding: 67px;
-    }
-
-    .meuModal {
-        height: 75%;
-        margin: 82px 81px;
-    }
-
-    .meuModal-content {
-
-        width: 87%;
-
-        max-height: 90%;
-        padding: 40px;
-    }
-
-    .fototxt img:nth-child(1) {
-        display: none;
-    }
-
-    .fototxt img:nth-child(2) {
-        display: block !important;
-    }
-
-    .maps {
-        display: none;
-    }
-
-    .linguagem svg {
-        width: 71px;
-        height: 95px;
-        padding: 21px;
-
-    }
-
-    .buttMeuSite button {
-
-        margin-bottom: 5%;
-        width: 38%;
-    }
-
-    .card img {
-        width: 55%;
-    }
-
-    .imagemCard {
-        margin-bottom: 10px;
-
-    }
-
-    .card {
-        height: 275px;
-    }
-
-    .card h1 {
-        margin: 12px 0px;
-        font-size: 2.3em;
-
-    }
-
-    .Bem-vindo img {
-
-        width: 95%
-    }
-
-    .rodape {
-
-        justify-content: space-around;
-
-    }
-}
 
 
 
@@ -127,6 +7,9 @@
 /* Para celular 470px */
 
 @media (max-width: 470px) {
+    .linguagem {
+        margin: 31px 2%;
+    }
     .sair svg {
         margin-top: -26px;
         margin-left: -30px;
@@ -316,10 +199,9 @@
     }
 
     .linguagem svg {
-        width: 60px;
+        width: 52px;
         height: 83px;
         padding: 7px;
-
     }
 
     .imglog img {
@@ -440,7 +322,7 @@
     }
 
     .meuModal-content {
-        max-width: 325px;
+        max-width: 299px;
         max-height: 110%;
     }
 
@@ -450,8 +332,9 @@
     }
 
     .meuModal {
-        margin: 110px 29px;
-        width: 86%;
+        margin: 108px 29px;
+        width: 88%;
+        height: 62%;
 
     }
 
@@ -588,7 +471,7 @@
     }
 
     .buttMeuSite button {
-        width: 45%;
+        width: 55%;
         padding: 8px;
         font-size: 2em;
         margin-bottom: 8%;
@@ -612,11 +495,9 @@
     }
 
     .linguagem svg {
-        width: 52px;
+        width: 43px;
         height: 65px;
         padding: 7px;
-
-
     }
 
     .linguagem svg:hover {
@@ -631,7 +512,7 @@
     }
 
     .linguagem {
-        margin: 30px 1%;
+        margin: 30px 5%;
     }
 
     .maps {
@@ -691,8 +572,8 @@
 
     .meuModal {
         width: 84%;
-        height: 73%;
-        margin: 52px 28px;
+        height: 61%;
+        margin: 104px 28px;
     }
 
     .fototxt img:nth-child(1) {
@@ -817,10 +698,9 @@
     }
 
     .linguagem svg {
-        width: 41px;
+        width: 34px;
         height: 46px;
         padding: 9px;
-
     }
 
     .minha-habilidade h1 {
@@ -862,11 +742,7 @@
         font-size: 1.3em;
     }
 
-    .linguagem {
-
-        margin: 20px 40px;
-    }
-
+ 
     .imglog img {
         width: 120px;
     }
@@ -930,7 +806,7 @@
         width: 91%;
         max-width: 278px;
         max-height: 100%;
-        margin-left: -8px;
+        margin-left: -9px;
     }
 
     .meuFechar {
@@ -940,9 +816,10 @@
     }
 
     .fototxt {
-        margin-top: 20px;
+        margin-top: 22px;
         width: 80%;
-        width: 100%;
+        width: 86%;
+       
     }
 
     .meuModal {
@@ -968,11 +845,12 @@
     .modal-content {
         width: 77%;
         margin-top: 15px;
+        max-height: 145%;
     }
 
     .modal {
-        height: 45%;
-        margin: 140px 29px;
+        height: 63%;
+        margin: 103px 32px;
     }
 
     .close {
@@ -1178,8 +1056,8 @@
 
 
     .linguagem {
-        margin: 0px 10px 30px 10px;
-        margin-top: 20px;
+        margin: 20px 30px 30px 20px;
+        
     }
 
     .jquery img {
