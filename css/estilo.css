@@ -207,13 +207,13 @@ body {
 
 .minha-habilidade h1 {
     color: #fff;
-    text-shadow: 0 0 10px #fff,
-        0 0 20px #fff,
-        0 0 30px #fff,
-        0 0 40px #07a8ff,
-        0 0 70px #07a8ff,
-        0 0 80px #07a8ff,
-        0 0 100px #07a8ff;
+    text-shadow: 0 0 10 #fff,
+        0 0 20 #fff,
+        0 0 30 #fff,
+        0 0 40 #07a8ff,
+        0 0 70 #07a8ff,
+        0 0 80 #07a8ff,
+        0 0 100 #07a8ff;
     display: flex;
     justify-content: center;
     font-size: 2.9em;
